@@ -1,0 +1,43 @@
+<view class='wrap'>
+  <view class='result'>
+    <view class='box'>
+      <view class='eight'>
+        <view class='eight-title'>命局干支</view>
+        <view class='eight-array'>
+          <view class='eight-array_content'>
+            <text>{{detail.gzYear}}</text>
+            <view>年柱</view>
+          </view>
+          <view class='eight-array_content'>
+            <view>{{detail.gzMonth}}</view>
+            <view>月柱</view>
+          </view>
+          <view class='eight-array_content'>
+            <view>{{detail.gzDay}}</view>
+            <view>日柱</view>
+          </view>
+          <view class='eight-array_content'>
+            <view>{{detail.gzHour}}</view>
+            <view>时柱</view>
+          </view>
+          <view class='eight-array_content'>
+            <text>{{detail.Animal}}</text>
+            <view>生肖</view>
+          </view>
+          <view class='eight-array_content'>
+            <view>{{detail.astro}}</view>
+            <view>星座</view>
+          </view>
+          <view class='eight-array_content'>
+            <view></view>
+            <view>命宫</view>
+          </view>
+          <view class='eight-array_content eight-array_content_border'>
+            <view></view>
+            <view>胎元</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
